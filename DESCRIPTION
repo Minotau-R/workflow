@@ -1,0 +1,41 @@
+Package: MinotauR
+Version: 0.1.1
+Authors@R: 
+    c(person(given = "Giulio", family = "Benedetti", role = c("aut", "cre"),
+          email = "giulio.benedetti@utu.fi",
+          comment = c(ORCID = "0000-0002-8732-7692")),
+    person("Thomaz", family = "Bastiaanssen", role = c("aut"),
+          email = "thomazbastiaanssen@gmail.com",
+          comment = c(ORCID = "0000-0001-6891-734X")), 
+    person(given = "Leo", family = "Lahti", role = c("aut"),
+          email = "leo.lahti@iki.fi",
+          comment = c(ORCID = "0000-0001-5537-637X")))
+Title: MinotauR workflow
+Description:
+    MinotauR
+biocViews:
+    Software, DataImport, Metabolomics, Metagenomics, Microbiome, Annotation,
+    Pathways, Visualization, Network, GraphAndNetwork
+License: Artistic-2.0
+Encoding: UTF-8
+Depends:
+    R (>= 4.1)
+Imports:
+    anansi,
+    ariadne,
+    mia,
+    MultiFactor,
+    tidygraph
+Suggests:
+    BiocStyle,
+    curatedMetagenomicData,
+    knitr,
+    miaViz,
+    remotes,
+    rmarkdown
+Remotes:
+    github::Minotau-R/ariadne
+    github::microbiome/mia@fix_modules
+    github::Minotau-R/MultiFactor
+URL: https://github.com/Minotau-R/workflow
+BugReports: https://github.com/Minotau-R/workflow/issues
