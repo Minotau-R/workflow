@@ -34,8 +34,8 @@ Suggests:
     remotes,
     rmarkdown
 Remotes:
-    github::Minotau-R/ariadne
-    github::microbiome/mia@fix_modules
+    github::Minotau-R/ariadne,
+    github::microbiome/mia@fix_modules,
     github::Minotau-R/MultiFactor
 URL: https://github.com/Minotau-R/workflow
 BugReports: https://github.com/Minotau-R/workflow/issues
